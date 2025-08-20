@@ -16,6 +16,7 @@
 
 // }
 
+//scope is where we can access a variable or a function in our code
 // Lexical Environment 
 var x = 1;
 function a() {
@@ -28,4 +29,5 @@ function a() {
 }
 
 console.log(b);
+
 a();
