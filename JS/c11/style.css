@@ -1,0 +1,25 @@
+/* .newClass {
+    background-color: blue;
+}
+
+.para {
+    color: yellowgreen;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 5px;
+    border: 1px solid black;
+} */
+
+.light {
+    background-color: white;
+    color:  black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
