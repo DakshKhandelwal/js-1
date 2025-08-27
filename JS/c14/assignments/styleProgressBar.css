@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    width: 350px;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 100%;
+}
+
+#progress {
+    position: absolute;
+    top:  50%;
+    left: 0;
+    height: 4px;
+    background-color: red;
+    transform: translateY(-50%);
+    z-index: 1;
+    transition: width 0.3s ease;
+    
+}
